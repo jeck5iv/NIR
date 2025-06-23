@@ -1,0 +1,13 @@
+{
+  "name": "quant_nf4_group32",
+  "quantized": true,
+  "base_model_id": "mistralai/Mistral-7B-v0.1",
+  "original_model_dir": "./models/mistral-7b-fp16",
+  "quantized_model_dir": "models/Mistral-7B-v0.1-int4",
+  "load_in_4bit": true,
+  "bnb_4bit_double_quant": false,
+  "bnb_4bit_quant_type": "nf4",
+  "bnb_4bit_compute_dtype": "bfloat16",
+  "llm_int8_enable_fp32_cpu_offload": false,
+  "bnb_4bit_group_size": 32
+}

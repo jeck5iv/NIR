@@ -1,0 +1,13 @@
+{
+  "batch_size": 8,
+  "num_train_epochs": 3,
+  "gradient_accumulation_steps": 2,
+  "fp16": true,
+  "learning_rate": 2e-4,
+  "logging_steps": 10,
+  "eval_strategy": "epoch",
+  "save_strategy": "epoch",
+  "output_dir": "checkpoints",
+  "logging_dir": "logs",
+  "save_total_limit": 2
+}

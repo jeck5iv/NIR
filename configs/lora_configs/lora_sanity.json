@@ -1,0 +1,9 @@
+{
+  "name": "lora_sanity",
+  "r": 1,
+  "lora_alpha": 1,
+  "lora_dropout": 0.0,
+  "target_modules": ["q_proj"], 
+  "bias": "none",
+  "task_type": "CAUSAL_LM"
+}
