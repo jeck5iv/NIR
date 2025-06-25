@@ -1,5 +1,5 @@
 
-# Personal-LLM-Style-Tuning
+# LoRA Fine-Tuning of Mistral-7B and Qwen2.5-7B for Text Generation in a Personal Communication Style
 
 Проект исследует возможность дообучения LLM (например, Mistral 7B) под стиль конкретного человека на основе данных из Telegram канала. Для адаптации используется LoRA (Low-Rank Adaptation), позволяющая эффективно дообучать модель даже при ограниченном объёме данных.
 
